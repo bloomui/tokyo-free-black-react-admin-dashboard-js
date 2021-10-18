@@ -12,7 +12,7 @@
 </h1>
 <div align="center">
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![version](https://img.shields.io/badge/version-1.1.0-blue.svg)
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 <a href="https://bloomui.com/product/tokyo-free-black-react-javascript-material-ui-admin-dashboard/"><img src="https://bloomui.s3.us-east-2.amazonaws.com/tokyo-free-black-react-javascript-material-ui-admin-dashboard.jpg" /></a>
@@ -50,9 +50,9 @@ The codebase is clean and simple to follow. If you want to customize the colors 
 </h2>
 <ol>
     <li>Make sure you have the latest stable versions for Node.js and NPM installed</li>
-    <li>Clone repository: <code>git clone https://github.com/bloomui/tokyo-free-black-react-admin-dashboard.git</code></li>
+    <li>Clone repository: <code>git clone https://github.com/bloomui/tokyo-free-black-react-admin-dashboard-js.git</code></li>
     <li>Install dependencies: Run <code>npm install</code> inside the project folder</li>
-    <li>Start dev server: After the install finishes, run <code>npm run start</code>. A browser window will open on http://localhost:3000 where you''ll see the live preview</li>
+    <li>Start dev server: After the install finishes, run <code>npm run start</code>. A browser window will open on http://localhost:3000 where you'll see the live preview</li>
 </ol>
 
 ---
