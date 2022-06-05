@@ -12,6 +12,7 @@ import {
   ListItem,
   ListItemAvatar,
   TextField,
+  Theme,
   Tooltip,
   Typography,
   Dialog,
@@ -60,8 +61,6 @@ const DialogTitleWrapper = styled(DialogTitle)(
 );
 
 function HeaderSearch() {
-
-
   const [openSearchResults, setOpenSearchResults] = useState(false);
   const [searchValue, setSearchValue] = useState('');
 
@@ -107,7 +106,7 @@ function HeaderSearch() {
         <DialogTitleWrapper>
           <SearchInputWrapper
             value={searchValue}
-            autoFocus={true}
+            autoFocus
             onChange={handleSearchChange}
             InputProps={{
               startAdornment: (
@@ -161,7 +160,12 @@ function HeaderSearch() {
                 </Hidden>
                 <Box flex="1">
                   <Box display="flex" justifyContent="space-between">
-                    <Link href="#" underline="hover" sx={{ fontWeight: 'bold' }} variant="body2">
+                    <Link
+                      href="#"
+                      underline="hover"
+                      sx={{ fontWeight: 'bold' }}
+                      variant="body2"
+                    >
                       Dashboard for Healthcare Platform
                     </Link>
                   </Box>
@@ -173,7 +177,8 @@ function HeaderSearch() {
                         lighten(theme.palette.secondary.main, 0.5)
                     }}
                   >
-                    This page contains all the necessary information for managing all hospital staff.
+                    This page contains all the necessary information for
+                    managing all hospital staff.
                   </Typography>
                 </Box>
                 <ChevronRightTwoToneIcon />
@@ -194,7 +199,12 @@ function HeaderSearch() {
                 </Hidden>
                 <Box flex="1">
                   <Box display="flex" justifyContent="space-between">
-                    <Link href="#" underline="hover" sx={{ fontWeight: 'bold' }} variant="body2">
+                    <Link
+                      href="#"
+                      underline="hover"
+                      sx={{ fontWeight: 'bold' }}
+                      variant="body2"
+                    >
                       Example Projects Application
                     </Link>
                   </Box>
@@ -227,7 +237,12 @@ function HeaderSearch() {
                 </Hidden>
                 <Box flex="1">
                   <Box display="flex" justifyContent="space-between">
-                    <Link href="#" underline="hover" sx={{ fontWeight: 'bold' }} variant="body2">
+                    <Link
+                      href="#"
+                      underline="hover"
+                      sx={{ fontWeight: 'bold' }}
+                      variant="body2"
+                    >
                       Search Results Page
                     </Link>
                   </Box>
@@ -239,7 +254,8 @@ function HeaderSearch() {
                         lighten(theme.palette.secondary.main, 0.5)
                     }}
                   >
-                    Choose if you would like to show or not this typography section here...
+                    Choose if you would like to show or not this typography
+                    section here...
                   </Typography>
                 </Box>
                 <ChevronRightTwoToneIcon />
