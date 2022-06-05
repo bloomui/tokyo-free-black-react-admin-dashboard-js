@@ -94,7 +94,7 @@ function MyCards() {
     setSelectedValue(event.target.value);
   };
 
-  const handleDelete = () => { };
+  const handleDelete = () => {};
 
   return (
     <Card>

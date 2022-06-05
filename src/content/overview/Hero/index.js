@@ -143,8 +143,8 @@ function Hero() {
                   <b>Built with Javascript</b>
                 </Box>
                 <Typography component="span" variant="subtitle2">
-                  Tokyo Free React Admin Dashboard features a modern
-                  technology stack and is built with React + Javascript.
+                  Tokyo Free React Admin Dashboard features a modern technology
+                  stack and is built with React + Javascript.
                 </Typography>
               </Typography>
             </Grid>

@@ -139,7 +139,9 @@ function Status500() {
                     mb: 4
                   }}
                 >
-                    High performance React template built with lots of powerful MUI (Material-UI) components across multiple product niches for fast & perfect apps development processes.
+                  High performance React template built with lots of powerful
+                  MUI (Material-UI) components across multiple product niches
+                  for fast & perfect apps development processes.
                 </TypographySecondary>
                 <Button href="/overview" size="large" variant="contained">
                   Overview

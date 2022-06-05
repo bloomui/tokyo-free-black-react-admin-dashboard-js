@@ -12,7 +12,9 @@ export const SidebarProvider = ({ children }) => {
   };
 
   return (
-    <SidebarContext.Provider value={{ sidebarToggle, toggleSidebar, closeSidebar }}>
+    <SidebarContext.Provider
+      value={{ sidebarToggle, toggleSidebar, closeSidebar }}
+    >
       {children}
     </SidebarContext.Provider>
   );

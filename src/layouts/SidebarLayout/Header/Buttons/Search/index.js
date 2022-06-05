@@ -12,7 +12,6 @@ import {
   ListItem,
   ListItemAvatar,
   TextField,
-  Theme,
   Tooltip,
   Typography,
   Dialog,
@@ -150,8 +149,7 @@ function HeaderSearch() {
                   <ListItemAvatar>
                     <Avatar
                       sx={{
-                        background: (theme: Theme) =>
-                          theme.palette.secondary.main
+                        background: (theme) => theme.palette.secondary.main
                       }}
                     >
                       <FindInPageTwoToneIcon />
@@ -173,7 +171,7 @@ function HeaderSearch() {
                     component="span"
                     variant="body2"
                     sx={{
-                      color: (theme: Theme) =>
+                      color: (theme) =>
                         lighten(theme.palette.secondary.main, 0.5)
                     }}
                   >
@@ -189,8 +187,7 @@ function HeaderSearch() {
                   <ListItemAvatar>
                     <Avatar
                       sx={{
-                        background: (theme: Theme) =>
-                          theme.palette.secondary.main
+                        background: (theme) => theme.palette.secondary.main
                       }}
                     >
                       <FindInPageTwoToneIcon />
@@ -212,7 +209,7 @@ function HeaderSearch() {
                     component="span"
                     variant="body2"
                     sx={{
-                      color: (theme: Theme) =>
+                      color: (theme) =>
                         lighten(theme.palette.secondary.main, 0.5)
                     }}
                   >
@@ -227,8 +224,7 @@ function HeaderSearch() {
                   <ListItemAvatar>
                     <Avatar
                       sx={{
-                        background: (theme: Theme) =>
-                          theme.palette.secondary.main
+                        background: (theme) => theme.palette.secondary.main
                       }}
                     >
                       <FindInPageTwoToneIcon />
@@ -250,7 +246,7 @@ function HeaderSearch() {
                     component="span"
                     variant="body2"
                     sx={{
-                      color: (theme: Theme) =>
+                      color: (theme) =>
                         lighten(theme.palette.secondary.main, 0.5)
                     }}
                   >
