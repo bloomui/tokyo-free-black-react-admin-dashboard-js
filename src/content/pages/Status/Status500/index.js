@@ -13,7 +13,7 @@ import LoadingButton from '@mui/lab/LoadingButton';
 
 const GridWrapper = styled(Grid)(
   ({ theme }) => `
-    background: ${theme.colors.gradients.black1};
+    background: ${theme.colors.gradients.blue5};
 `
 );
 
